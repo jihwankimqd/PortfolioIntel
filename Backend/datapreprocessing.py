@@ -6,7 +6,7 @@
 import re
 import pandas as pd
 import requests
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 import pandas_datareader.data as web
 from datetime import datetime as dt
 
@@ -132,6 +132,7 @@ def preprocessdata(stock_input):
 
     # stock_file = 'stock_'+ str(stock_id) +'.csv'
     # df.to_csv(str(stock_file))
+
 
     # Used an API, because the above scraping method took too long.
     df = web.DataReader(stock_id, 'naver', start='2015-01-01', end=dt.now()).reset_index()
