@@ -1,3 +1,3 @@
 # PortfolioIntel
 
-![Alt Text](https://github.com/jihwankimqd/MCMC_Cipher/blob/master/mcmc_run_code.gif?raw=true)
+![Alt Text](https://raw.githubusercontent.com/jihwankimqd/PortfolioIntel/master/intelportfolio_explanation.gif)
